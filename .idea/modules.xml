@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ch01/ch01.iml" filepath="$PROJECT_DIR$/ch01/ch01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch03/ch03.iml" filepath="$PROJECT_DIR$/ch03/ch03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/licensing-service/confsvr/confsvr.iml" filepath="$PROJECT_DIR$/licensing-service/confsvr/confsvr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch02/licensing-service.iml" filepath="$PROJECT_DIR$/ch02/licensing-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/licensing-service/licensing-services/licensing-services.iml" filepath="$PROJECT_DIR$/licensing-service/licensing-services/licensing-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sprin microservices.iml" filepath="$PROJECT_DIR$/sprin microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/licensing-service/spring-microservice.iml" filepath="$PROJECT_DIR$/licensing-service/spring-microservice.iml" />
+    </modules>
+  </component>
+</project>
