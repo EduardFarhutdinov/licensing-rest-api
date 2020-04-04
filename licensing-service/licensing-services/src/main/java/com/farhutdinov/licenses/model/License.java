@@ -12,9 +12,9 @@ import javax.persistence.Table;
 
 public class License {
     @Id
-    @Column(name = "license_id",nullable = false)
+    @Column(name = "license_id", nullable = false)
     private String licenseId;
-    @Column(name = "organization_id",nullable = false)
+    @Column(name = "organization_id", nullable = false)
     private String organizationId;
     @Column(name = "product_name", nullable = false)
     private String productName;
@@ -24,9 +24,8 @@ public class License {
     private Integer licenseMax;
     @Column(name = "license_allocated", nullable = false)
     private Integer licenseAllocated;
-    @Column(name="comment")
+    @Column(name = "comment")
     private String comment;
-
 
 
     public String getLicenseId() {

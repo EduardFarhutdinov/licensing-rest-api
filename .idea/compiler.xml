@@ -7,9 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="organization-service" />
         <module name="licensing-service" />
         <module name="confsvr" />
         <module name="ch01" />
+        <module name="eurekaserver" />
         <module name="licensing-services" />
       </profile>
     </annotationProcessing>
@@ -17,8 +19,11 @@
       <module name="ch01" target="1.8" />
       <module name="ch03" target="1.8" />
       <module name="confsvr" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eurekaserver" target="1.8" />
       <module name="licensing-service" target="1.8" />
       <module name="licensing-services" target="1.8" />
+      <module name="organization-service" target="1.8" />
       <module name="spring-microservice" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -27,8 +32,11 @@
       <module name="ch01" options="-parameters" />
       <module name="ch03" options="-parameters" />
       <module name="confsvr" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="eurekaserver" options="-parameters" />
       <module name="licensing-service" options="-parameters" />
       <module name="licensing-services" options="-parameters" />
+      <module name="organization-service" options="-parameters" />
     </option>
   </component>
 </project>
